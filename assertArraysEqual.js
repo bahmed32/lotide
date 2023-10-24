@@ -23,7 +23,7 @@ const eqArrays = function(arr1, arr2) {
 
 
   return true;
-}
+};
 
 
 const assertArraysEqual = function(arr1, arr2) {
@@ -39,4 +39,3 @@ assertArraysEqual([1], [1]);
 assertArraysEqual([1], [2]);
 
 
-    

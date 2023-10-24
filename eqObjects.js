@@ -56,6 +56,15 @@ const eqObjects = function(object1, object2) {
 
   return true;
 };
+function eqObjects(obj1, obj2){
+  for(let key in obj1){
+      if(obj1[key]!== obj2[key]){
+          return false; //We close the program as one of the key value pair does not match.
+      }
+  }
+  return true; //We return true after the loop making sure that all the keys and values are equal.
+}
+
 
 const shirtObject = { color: "red", size: "medium" };
 const anotherShirtObject = { size: "medium", color: "red" };
