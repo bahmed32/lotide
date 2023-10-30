@@ -7,7 +7,7 @@ const head = function(array) {
     return undefined;
   }
 
-  return array.shift();
+  return array.shift(1);
 };
 
 
