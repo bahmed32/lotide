@@ -27,3 +27,4 @@ const assertObjectsEqual = function(actual, expected) {
 const obj1 = { name: 'John', age: 30 };
 const obj2 = { name: 'John', age: 30 };
 assertObjectsEqual(obj1, obj2);
+module.exports = assertObjectsEqual;

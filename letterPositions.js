@@ -26,3 +26,5 @@ const result = letterPositions("hello");
 console.log("Testing letterPositions(\"hello\"):");
 console.log(result);
 
+module.exports = letterPositions
+

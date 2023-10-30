@@ -57,3 +57,5 @@ const expected4 = ["apple", "banana", "cherry"];
 
 assertArraysEqual(results3, expected3);
 assertArraysEqual(results4, expected4);
+
+module.exports = takeUntil;

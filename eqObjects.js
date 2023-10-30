@@ -79,3 +79,5 @@ console.log(assertEqual(eqObjects(multiColorShirtObject, anotherMultiColorShirtO
 
 const longSleeveMultiColorShirtObject = { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
 console.log(assertEqual(eqObjects(multiColorShirtObject, longSleeveMultiColorShirtObject), false)); // => f
+
+module.exports = eqObjects

@@ -39,3 +39,5 @@ const actual = map(words, word => word.toUpperCase());
 assertArraysEqual(actual, expected);
 //please work
 
+module.exports = map
+

@@ -27,3 +27,5 @@ console.log(assertEqual(result1["h"], 1));
 console.log(assertEqual(result1["e"], 1));  
 console.log(assertEqual(result1["l"], 2));  
 console.log(assertEqual(result1["o"], 1));
+
+module.exports = countLetters

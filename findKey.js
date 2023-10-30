@@ -28,3 +28,4 @@ const data = {
 
 const result = findKey(data, item => item > 4);
 console.log(result)
+module.exports = findKey;
