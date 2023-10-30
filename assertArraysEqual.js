@@ -9,21 +9,8 @@
 
 // For this reason, we will not be writing assertions (test code) for assertArraysEqual. That said, you can and should call the function below its declaration and visually ensure that the message printed to the console is accurate.
 
+const eqArrays = require('./eqArrays')
 
-const eqArrays = function(arr1, arr2) {
-  if (arr1.length !== arr2.length) {
-    return false;
-  }
-
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      return false;
-    }
-  }
-
-
-  return true;
-};
 
 
 const assertArraysEqual = function(arr1, arr2) {
@@ -34,8 +21,4 @@ const assertArraysEqual = function(arr1, arr2) {
   }
 };
 
-assertArraysEqual(["Lighthouse Labs"], ["Bootcamp"]);
-assertArraysEqual([1], [1]);
-assertArraysEqual([1], [2]);
-
-
+module.exports = assertArraysEqual
